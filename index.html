@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Akhir Membuat Website</title>
+    <link rel="stylesheet" href="./css/header.css">
+    </link>
+    <link rel="stylesheet" href="css/main.css">
+    </link>
+    <link rel="stylesheet" href="css/footer.css">
+    </link>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Play:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="top-bar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="">2025 GRID</a></li>
+            </ul>
+        </div>
+        <div id="main-bar">
+            <a href="#">
+                <div class="logo">
+                    <span id="logo-top">WEC</span>
+                    <span id="logo-down">
+                        <span id="logo-down-first">Endurance</span><span id="logo-down-last">Championship</span>
+                    </span>
+                </div>
+            </a>
+            <input id="toggler" type="checkbox">
+            <label for="toggler">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="toggler-icon">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </label>
+            <nav class="menu">
+                <label id="toggler-2" for="toggler">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                        stroke="currentColor" class="toggler-icon">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
+                </label>
+                <ul>
+                    <li><a href="#introduce">What is Endurance Race?</a></li>
+                    <li><a href="#class-of-cars">Competing Cars</a></li>
+                    <li><a href="#about">Getting Experience</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="hero">
+            <div class="slider">
+                <div class="slides">
+                    <img src="assets/GettyImages-2157282151-copy.webp" class="slide" alt="">
+                    <img src="assets/m24-3161-fine.jpg" class="slide" alt="">
+                    <img src="assets/a5873ca5-51a2-412c-843a-11dd8233da7f-1920-auto-jpeg.jpeg" class="slide" alt="">
+                </div>
+            </div>
+            <div id="hero-content">
+                <h1>The Pinnacle of Endurance Racing</h1>
+                <p>Experience the thrill of the FIA World Endurance Championship with global manufacturers and legendary
+                    races like 24 Hours of Le Mans.</p>
+            </div>
+        </div>
+        <button id="previous" onclick="moveSlide(-1)">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="button-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+            </svg>
+        </button>
+        <button id="next" onclick="moveSlide(1)">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="button-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </button>
+
+        <div id="content">
+            <article class="articles" id="introduce">
+                <div class="introduce-container">
+                    <div class="explanations">
+                        <div class="description">
+                            <h2>World Endurance Championship</h2>
+                            <p>What is the Endurance Championship?</p>
+                        </div>
+                        <p>Established in 2012, the FIA World Endurance Championship (FIA WEC) represents the
+                            international
+                            pinnacle of the long-distance discipline, in which races last anything from six hours up to
+                            24.
+                        </p>
+                        <figure>
+                            <img src="assets/15sp-lemans-teams-inyt-qmwh-videoSixteenByNineJumbo1600.jpg" alt="">
+                            <figcaption>World Endurance Championship Racing at Spa-Franchorchamps, Belgium.</figcaption>
+                        </figure>
+                        <p>The World Endurance Championship (WEC) is a premier international motorsport series organized
+                            by
+                            the Fédération Internationale de l'Automobile (FIA) and the Automobile Club de l'Ouest
+                            (ACO),
+                            focused on endurance racing. It features long-distance races that test the durability,
+                            efficiency, and teamwork of both cars and drivers, including the iconic 24 Hours of Le Mans.
+                            The
+                            WEC includes multiple classes of race cars—such as Hypercars and GT cars—competing
+                            simultaneously on the same track. Teams must strategize not only for speed but also for
+                            consistency, pit stops, driver changes, and weather conditions over races that can last from
+                            6
+                            to 24 hours. The series attracts top manufacturers like Toyota, Ferrari, Porsche, and
+                            Peugeot,
+                            making it a showcase of cutting-edge automotive technology and endurance racing skill.</p>
+                        <p>The popularity of the pioneering series is evidenced by the sheer number of manufacturers
+                            involved – 13 in 2025, equating to no fewer than 36 entries from Alpine, Aston Martin, BMW,
+                            Cadillac, Corvette, Ferrari, Ford, Lexus, McLaren, Mercedes-AMG, Peugeot, Porsche and
+                            Toyota,
+                            all of whom recognise the value of competing in a championship that helps to accelerate
+                            advances
+                            in technology, performance and safety for their road-going vehicles.</p>
+                        <p>Freedom of design is a key part of the appeal, and with six different winners from eight
+                            races in
+                            both the headlining Hypercar category and supporting LMGT3 division in 2024,
+                            unpredictability
+                            comes as standard – offering up an irresistible challenge for competitors, and an unmissable
+                            experience for fans.</p>
+                        <p>Contested across multiple continents, some of the world’s finest drivers do battle in Qatar,
+                            Italy, Belgium, Brazil, the USA, Japan and Bahrain, alongside the series’ flagship event in
+                            France in mid-June – the legendary 24 Hours of Le Mans, renowned as one of the sport’s very
+                            toughest tests. Such a diverse calendar guarantees FIA WEC’s stakeholders and partners
+                            intercontinental visibility in key regions around the world.</p>
+                        <p>So buckle up and settle in, because if you’re after action and entertainment from the first
+                            lap
+                            to the chequered flag, you’ve come to exactly the right place!</p>
+                    </div>
+                    <aside class="aside">
+                        <div class="profile">
+                            <img src="assets/blank-profile-picture-973460_1280.webp" alt="profile">
+                            <div class="aside-description">
+                                <p><span>username</span></p>
+                                <p>Do you wanna dancing around the tracks?</p>
+                                <p>Let's go!</p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </article>
+            <!-- <hr> -->
+            <article class="articles" id="class-of-cars">
+                <div class="description">
+                    <h2>Discover</h2>
+                    <p>The classes competing in the 24 Hours of Le Mans</p>
+                </div>
+                <div class="cards-of-class">
+                    <article class="card-car" onmouseenter="effectOn(0)" onmouseleave="effectOff(0)">
+                        <figure>
+                            <img src="assets/2024_6_Hours_of_Spa-Francorchamps_Ferrari_AF_Corse_Ferrari_499P_No.51_(DSC05637).jpg"
+                                alt="Ferrari 499P AFCorse">
+                        </figure>
+                        <h3>Hypercar</h3>
+                    </article>
+                    <article class="card-car" onmouseenter="effectOn(1)" onmouseleave="effectOff(1)">
+                        <figure>
+                            <img src="assets/2023_6_Hours_of_Spa-Francorchamps_Inter_Europol_Competition_Oreca_07_-_Gibson_No.34_(DSC09714).jpg"
+                                alt="Oreca 07 Inter Europol">
+                        </figure>
+                        <h3>LMP2</h3>
+                    </article>
+                    <article class="card-car" onmouseenter="effectOn(2)" onmouseleave="effectOff(2)">
+                        <figure>
+                            <img src="assets/2024_6_Hours_of_Spa-Francorchamps_TF_Sport_Chevrolet_Corvette_Z06_GT3.R_No.81_(DSC02653).jpg"
+                                alt="Porsche 911 GT3 Manthey">
+                        </figure>
+                        <h3>LMGT3</h3>
+                    </article>
+                </div>
+            </article>
+            <!-- hr -->
+            <article class="articles" id="about">
+                <div class="description">
+                    <h2>Get Experience</h2>
+                    <p>Getting real experience</p>
+                </div>
+                <div class="card-banner">
+                    <div class="card-banner-images">
+                        <img class="banner-image" src="assets/1-1.jpg" alt="">
+                    </div>
+                    <div class="card-banner-text">
+                        <p>September 2025</p>
+                    </div>
+                </div>
+                <div class="card-ticket-container">
+                    <div class="card-ticket">
+                        <img src="assets/lusail-2.jpeg" alt="lusail-qatar-track" />
+                        <div class="card-ticket-description">
+                            <div>
+                                <p>Qatar 1812km</p>
+                                <p>3 September</p>
+                            </div>
+                            <img src="assets/tn_qa-flag.gif" alt="qatar-flag" />
+                        </div>
+                        <div>
+                            <button>Tickets</button>
+                        </div>
+                    </div>
+                    <div class="card-ticket">
+                        <img src="assets/lusail-2.jpeg" alt="lusail-qatar-track" />
+                        <div class="card-ticket-description">
+                            <div>
+                                <p>Qatar 1812km</p>
+                                <p>3 September</p>
+                            </div>
+                            <img src="assets/tn_qa-flag.gif" alt="qatar-flag" />
+                        </div>
+                        <div>
+                            <button>Tickets</button>
+                        </div>
+                    </div>
+                    <div class="card-ticket">
+                        <img src="assets/lusail-2.jpeg" alt="lusail-qatar-track" />
+                        <div class="card-ticket-description">
+                            <div>
+                                <p>Qatar 1812km</p>
+                                <p>3 September</p>
+                            </div>
+                            <img src="assets/tn_qa-flag.gif" alt="qatar-flag" />
+                        </div>
+                        <div>
+                            <button>Tickets</button>
+                        </div>
+                    </div>
+                    <div class="card-ticket">
+                        <img src="assets/lusail-2.jpeg" alt="lusail-qatar-track" />
+                        <div class="card-ticket-description">
+                            <div>
+                                <p>Qatar 1812km</p>
+                                <p>3 September</p>
+                            </div>
+                            <img src="assets/tn_qa-flag.gif" alt="qatar-flag" />
+                        </div>
+                        <div>
+                            <button>Tickets</button>
+                        </div>
+                    </div>
+                    <div class="card-ticket">
+                        <img src="assets/lusail-2.jpeg" alt="lusail-qatar-track" />
+                        <div class="card-ticket-description">
+                            <div>
+                                <p>Qatar 1812km</p>
+                                <p>3 September</p>
+                            </div>
+                            <img src="assets/tn_qa-flag.gif" alt="qatar-flag" />
+                        </div>
+                        <div>
+                            <button>Tickets</button>
+                        </div>
+                    </div>
+                    <div class="card-ticket">
+                        <img src="assets/lusail-2.jpeg" alt="lusail-qatar-track" />
+                        <div class="card-ticket-description">
+                            <div>
+                                <p>Qatar 1812km</p>
+                                <p>3 September</p>
+                            </div>
+                            <img src="assets/tn_qa-flag.gif" alt="qatar-flag" />
+                        </div>
+                        <div>
+                            <button>Tickets</button>
+                        </div>
+                    </div>
+
+
+
+                    <!-- <div class="card-ticket">
+                        <h3>Event Tickets</h3>
+                        <p class="card-ticket-price">$70</p>
+                        <button class="card-ticket-button">ORDER NOW!</button>
+                    </div>
+                    <div class="card-ticket">
+                        <h3>Event Tickets</h3>
+                        <p class="card-ticket-price">$70</p>
+                        <button class="card-ticket-button">ORDER NOW!</button>
+                    </div>
+                    <div class="card-ticket">
+                        <h3>Event Tickets</h3>
+                        <p class="card-ticket-price">$70</p>
+                        <button class="card-ticket-button">ORDER NOW!</button>
+                    </div>
+                    <div class="card-ticket">
+                        <h3>Event Tickets</h3>
+                        <p class="card-ticket-price">$70</p>
+                        <button class="card-ticket-button">ORDER NOW!</button>
+                    </div>
+                    <div class="card-ticket">
+                        <h3>Event Tickets</h3>
+                        <p class="card-ticket-price">$70</p>
+                        <button class="card-ticket-button">ORDER NOW!</button>
+                    </div>
+                    <div class="card-ticket">
+                        <h3>Event Tickets</h3>
+                        <p class="card-ticket-price">$70</p>
+                        <button class="card-ticket-button">ORDER NOW!</button>
+                    </div> -->
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>©2025 web ini dibuat dengan referensi dari website <a href="https://www.fiawec.com/" target="_blank">World
+                Endurance Championship</a></p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script/hero-banner.js"></script>
+    <script src="script/card.js"></script>
+</body>
+
+</html>
